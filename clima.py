@@ -83,7 +83,7 @@ def exibir_clima(local: dict, clima: dict):
     print(f" Horário local....: {clima['time']}")
     print("=" * largura)
 
-
+#funcao pricipal
 def main():
     if len(sys.argv) > 1:
         cidade = " ".join(sys.argv[1:])
