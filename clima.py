@@ -4,6 +4,8 @@ Script que consulta o clima atual de uma cidade usando a API pública
 Open-Meteo (https://open-meteo.com) - gratuita e sem necessidade de API key.
 """
 
+#não faço a menor ideia do que estou fazendo, mas tá dando certo.
+
 import sys
 import requests
 
@@ -67,6 +69,7 @@ def buscar_clima(lat: float, lon: float):
     resposta.raise_for_status()
     return resposta.json()["current_weather"]
 
+#gemini, eu perdi o preconceito por vc, ajudou muito
 
 def exibir_clima(local: dict, clima: dict):
     """Imprime o resultado formatado no terminal."""
@@ -83,7 +86,7 @@ def exibir_clima(local: dict, clima: dict):
     print(f" Horário local....: {clima['time']}")
     print("=" * largura)
 
-#funcao pricipal
+#funcionamento principal do script
 def main():
     if len(sys.argv) > 1:
         cidade = " ".join(sys.argv[1:])
@@ -107,6 +110,7 @@ def main():
         print(f"Erro ao consultar a API: {erro}")
         sys.exit(1)
 
+#SOCORROOO, sabia nem o que era API na prática, só na teoria kkkkk
 
 if __name__ == "__main__":
     main()
