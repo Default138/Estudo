@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""
-Script que consulta o clima atual de uma cidade usando a API pública
-Open-Meteo (https://open-meteo.com) - gratuita e sem necessidade de API key.
-"""
+#não tava nem instalado o python
 
 #não faço a menor ideia do que estou fazendo, mas tá dando certo.
 
