@@ -1,0 +1,21 @@
+{
+  "name": "vscode-doom",
+  "displayName": "DOOM no VS Code",
+  "description": "Rode DOOM direto no seu editor!",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "vscode-doom.start",
+        "title": "Play DOOM"
+      }
+    ]
+  }
+}

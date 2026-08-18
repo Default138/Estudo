@@ -1,0 +1,6 @@
+[29/07/2026 16:14:23] CONVERSÃO: R$ 50.00 -> 9.7809 em Dólar Americano (Cotação: R$ 5.11)
+[29/07/2026 16:15:07] CONSULTA: Libra Esterlina está valendo R$ 6.84 (Variação no dia: 0.189001%)
+[29/07/2026 16:15:20] CONSULTA: Euro está valendo R$ 5.84 (Variação no dia: 0.058432%)
+[29/07/2026 16:15:38] CONVERSÃO: R$ 10.00 -> 0.0000 em Bitcoin (Cotação: R$ 329699.00)
+[29/07/2026 16:15:54] CONVERSÃO: R$ 100000000000000.00 -> 304733114.7381 em Bitcoin (Cotação: R$ 328156.00)
+[03/08/2026 15:20:03] CONVERSÃO: R$ 1000.00 -> 170.9700 em Euro (Cotação: R$ 5.85)
